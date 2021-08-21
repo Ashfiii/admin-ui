@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Source Sans Pro', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  margin: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MuiPaper-root{
+  padding: 24px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.MTableToolbar-root-5{
+  padding: 0 !important;
+  margin-bottom: 20px;
+  flex-wrap: wrap; 
+}
+.MuiFormControl-root{
+  padding: 0 !important;
+  margin-bottom: 16px;
+}
+.MTableToolbar-highlight-6{
+  color: gray !important;
+  background-color: #ffffff !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked{
+  color: gray !important;
+}
+.MTableToolbar-searchField-10{
+  width: 100% !important;
+}
+.MuiTablePagination-toolbar{
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px 0;
+}
+.MuiTableCell-footer{
+  border-bottom: none !important;
+}
+.btnDelete{
+  color: #ffffff;
+  background-color: gray;
+  padding: 8px 14px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.MuiIconButton-root{
+  padding-right: 0 !important;
+}
+.btnDelete:hover{
+  cursor: pointer;
+}
+.MuiIconButton-root:hover{
+  background-color: transparent !important;
+}
+.MuiIconButton-root:focus{
+  background-color: transparent !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
